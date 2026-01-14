@@ -1,0 +1,78 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SheSafe | Women Safety Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="WOMEN_SAFETY.CSS" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>SheSafe</h1>
+      <p>Because every woman deserves to feel safe, everywhere.</p>
+      <div class="hero-buttons">
+        <button class="btn primary" onclick="triggerSOS()">🚨 Emergency SOS</button>
+        <button class="btn secondary">Get Help Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location reveal">
+    <h2>📍 Live Location</h2>
+    <p id="locationText">Click to fetch your live location</p>
+    <button class="btn primary" onclick="getLocation()">Get Location</button>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features reveal">
+    <h2>Safety Features</h2>
+    <div class="cards">
+      <div class="card">🚨 One-Tap SOS Alert</div>
+      <div class="card">📞 Fake Call Generator</div>
+      <div class="card">🧭 Live Location Sharing</div>
+      <div class="card">🥋 Self Defense Tips</div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="steps reveal">
+    <h2>How It Works</h2>
+    <div class="step-box">
+      <div class="step">1️⃣ Tap SOS</div>
+      <div class="step">2️⃣ Location Shared</div>
+      <div class="step">3️⃣ Emergency Alert Sent</div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials reveal">
+    <h2>Impact Stories</h2>
+    <div class="cards">
+      <div class="card">"This app saved me." – Ananya</div>
+      <div class="card">"Simple & powerful." – Riya</div>
+      <div class="card">"Every girl needs this." – Sneha</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 SheSafe | Women Safety Platform</p>
+    <p>Helpline: 112 | Women Helpline: 1091</p>
+  </footer>
+
+  <!-- SOS MODAL -->
+  <div id="sosModal" class="modal">
+    <div class="modal-content">
+      <h2>🚨 SOS Activated</h2>
+      <p>Emergency alert sent with your location.</p>
+      <button class="btn primary" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="WOMEN_SAFETY.JS"></script>
+</body>
+</html>
